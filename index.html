@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-danger display-3 my-4">Marvel Quiz</h2>
+        </div>
+    </div>
+    
+    <!-- result section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>You are a <span class="res text-primary display-4 p-3">0%</span> fan!</p>
+        </div>
+    </div>
+    
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-danger">
+        <div class="container">
+            <h2 class="my-5 text-white">Are you a Marvel fan?</h2>
+            
+            <form class="quizForm text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. Can Black Widow lift Mjolnir?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A">
+                        <label class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">No</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. What was the name of the First Iron Man armor/suit?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A">
+                        <label class="form-check-label">It didn't have a name!</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">Mark 0</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C">
+                        <label class="form-check-label">Mark 1</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="D">
+                        <label class="form-check-label">None of the above</label>
+                    </div>
+                    
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. What is Agent Coilson's first name?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A">
+                        <label class="form-check-label">John</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">Steven</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="C">
+                        <label class="form-check-label">Phil</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="D">
+                        <label class="form-check-label">Cal</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Which of the stones is not really a stone?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A">
+                        <label class="form-check-label">Space</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">Reality</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A">
+                        <label class="form-check-label">Power</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">Mind</label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="p5.min.js"></script>
+    <script src="vanta.topology.min.js"></script>
+    <script src="three.r92.min.js"></script>
+    <script src="vanta.waves.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="sb.js"></script>
+    
+</body>
+
+</html>
